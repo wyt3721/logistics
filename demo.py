@@ -50,9 +50,9 @@ def display_dashboard():
         display_vehicles()
         
         # 系统控制面板
-        st.subheader("⚙️ 系统控制")
-        st.button("▶️ 启动优化" if not st.session_state.running else "⏹️ 停止优化",
-                 on_click=toggle_optimization)
+        # st.subheader("⚙️ 系统控制")
+        # st.button("▶️ 启动优化" if not st.session_state.running else "⏹️ 停止优化",
+        #          on_click=toggle_optimization)
 
 # 地图组件
 def update_map():
