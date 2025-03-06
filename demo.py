@@ -32,21 +32,21 @@ def display_dashboard():
  
     with col1:
         # 地图展示
-        st.subheader("实时位置追踪")
+        st.subheader("实时位置")
         update_map()
     
     with col2:
         # 生产监控
-        st.subheader("🏭 生产情况")
+        st.subheader("🏭 文件上传")
         display_production()
         
         # 事件通知
-        st.subheader("⚠️ 最新事件")
+        st.subheader("⚠️ 位置信息")
         display_events()
     
     with col3:
         # 车辆状态
-        st.subheader("🚛 车辆状态")
+        st.subheader("🚛 路由计算")
         display_vehicles()
         
         # 系统控制面板
