@@ -20,7 +20,7 @@ def init_system():
 # 实时数据看板
 def display_dashboard():
 
-    st.title("🚚 智能物流实时看板")    
+    st.title("🚚 Routing Map ")    
 
     with st.sidebar:
         st.header("报警设置")
